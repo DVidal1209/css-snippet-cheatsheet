@@ -106,7 +106,56 @@
                 </p>
             </div>
         </div>
-
+        <div class="card">
+            <h2>
+                Box Transition Glow
+            </h2>
+            <p>
+                Use transition and box shadows to glow on hover.
+            </p>
+            <div class="snippet">
+                <p>
+                    .code-card .card-header{
+                    <br>
+                    &emsp;border-radius: 8px;
+                    <br>
+                    &emsp;transition: all 0.5s ease in-out;
+                    <br>
+                    &emsp;}
+                    <br>
+                    .code-card:hover, .code-card:hover .card-header{
+                    <br>
+                    &emsp;
+                    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+                    <br>
+                    }
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>
+                Overlay Card with Title
+            </h2>
+            <p>
+                Use position properties and negative margins to raise elements higher than their natural starting point.
+            </p>
+            <div class="snippet">
+                <p>
+                    .card-header{
+                    <br>
+                    &emsp;position: relative;
+                    <br>
+                    &emsp;margin-top: -20px
+                    <br>
+                    }
+                </p>
+            </div>
+        </div>
     </div>
+    <footer>
+        <p>
+            Made with &#10084; and CSS
+        </p>
+    </footer>
 </body>
 </html>
