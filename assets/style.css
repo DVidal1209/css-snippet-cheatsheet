@@ -1,0 +1,67 @@
+*{
+    font-family: cursive;
+}
+
+:root{
+    --light: #fff;
+    --dark: #13293d;
+    --snippet-background: pink;
+    --snippet-code-color: blue;
+}
+
+body{
+    background: linear-gradient(-45deg, darkslategray, darkslateblue);
+    color: Orange;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.header h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+
+.header p{
+    line-height: 25px;
+    padding-bottom: 50px;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: var(--dark);
+    line-height: 17.5px;
+    margin: 1.6%;
+}
+
+.card h2{
+    line-height: 35px;
+}
+.card p{
+    padding-bottom: 25px;
+}
+
+.snippet{
+    margin: 10px;
+    background-color: var(--snippet-background);
+    color: var(--snippet-code-color);
+    border-radius: 5px;
+}
+
+.snippet p{
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 110%;
+}

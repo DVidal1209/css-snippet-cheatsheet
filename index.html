@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Snippet Cheatsheet</title>
+    <link rel="stylesheet" type="text/css" href="assets/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <h1>
+                CSS Snippet Cheatsheet
+            </h1>
+            <p>
+                Ever have trouble recalling the exact syntax for your favourite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all the code for you to copy.
+            </p>
+        </header>
+    </div>
+    <div class="main-body">
+        <div class="card">
+            <h2>
+                Flexbox Row
+            </h2>
+            <p>
+                Use these three properties to create a flexbox row layout.
+            </p>
+            <div class="snippet">
+                <p>
+                    .row{
+                    <br>
+                    &emsp;display: flex;
+                    <br>
+                    &emsp;flex-direction: row;
+                    <br>
+                    &emsp;flex-wrap: wrap;
+                    <br>
+                    }
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>
+                Flexbox Column
+            </h2>
+            <p>
+                Use this to create a Flexbox column layout.
+            </p>
+            <div class="snippet">
+                <p>
+                    .column{
+                        <br>
+                        &emsp;display: flex;
+                        <br>
+                        &emsp;flex-direction: column;
+                        <br>
+                    }
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>
+                CSS Grid Layout
+            </h2>
+            <p>
+                Build a 12 column using css grid.
+            </p>
+            <div class="snippet">
+                <p>
+                    .grid{
+                        <br>
+                        &emsp;display: grid;
+                        <br>
+                        &emsp;width: 100%;
+                        <br>
+                        &emsp;grid-template-columns:
+                        <br>
+                        repeat(12, 1fr);
+                        <br>
+                    }
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>
+                Linear Gradients
+            </h2>
+            <p>
+                This will create a background linear gradient from top to bottom.
+            </p>
+            <div class="snippet">
+                <p>
+                    .linear-gradient-background{
+                        <br>
+                        &emsp;background-image: linear-gradient(
+                        <br>
+                        &emsp;rgba(232, 102, 236, 0.3) 0%,
+                        <br>
+                        &emsp;rgba(232, 102, 236, 0.6) 10%
+                        <br>
+                        &emsp;);
+                        <br>
+                    }
+                </p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
