@@ -45,7 +45,7 @@ body{
     width: 30%;
     background-color: var(--dark);
     line-height: 17.5px;
-    margin: 1.6%;
+    margin: 20px auto 20px auto; 
     border-style: dashed;
     border-radius: 5px;
     border-color: var(--light);
